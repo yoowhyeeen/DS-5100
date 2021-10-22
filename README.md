@@ -8,17 +8,18 @@ Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We prop
 
 ## Experimental Design 
 For this project, we propose to fit a MLRM onto the selected data set to predict both cancer survivorship outcomes for 2020 and in subsequent years when the survivorship question module is administered. The following steps briefly outline the proposed project methodology:
-Download the dataset LLCP2020.xpt from CDC
-Create a colab notebook 
-Import the necessary packages (google.colab, pandas, etc.)
-Explore and clean the dataset
-Visualize the data
-Develop a hypothesis
-Outline our assumptions
-Check our assumptions
-Fit the regression model
-Interpret the results 
-Write code for user interaction with graphs and plots
+
+- [x] Download the dataset LLCP2020.xpt from CDC
+- [x] Create a colab notebook 
+- [x] Import the necessary packages (google.colab, pandas, etc.)
+- [ ] Explore and clean the dataset
+- [ ] Visualize the data
+- [x] Develop a hypothesis
+- [ ] Outline our assumptions
+- [ ] Check our assumptions
+- [ ] Fit the regression model
+- [ ] Interpret the results 
+- [ ] Write code for user interaction with graphs and plots
 
 ## Project Management
 Roles: Uyen Nguyen (Programmer), Andy Ortiz (Programmer), JD Pinto (Project Manager), Lee Ann Johnson (Data interpretation/Writing/Editing)
