@@ -1,7 +1,7 @@
 # DS-5100 Group Project
 
 ## Introduction 
-Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We propose to construct a multiple linear regression model (MLRM). Demographic data,  such as income, education, ethnicity, and geographic location, will be used to predict cancer survivorship outcomes, such as receiving a survivorship care plan.
+Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We propose to construct a logistic regression. Demographic data,  such as income, education, ethnicity, and geographic location, will be used to predict cancer survivorship outcomes, such as receiving a survivorship care plan.
 
 ## The Data 
 “The Behavioral Risk Factor Surveillance System (BRFSS) is the nation’s premier system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.” - Source: [CDC BRFSS](https://www.cdc.gov/brfss/index.html)
