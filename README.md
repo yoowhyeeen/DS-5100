@@ -1,9 +1,9 @@
 # DS-5100 Group Project
 
-Uyen Nguyen (gmd8sq)
-Andy Ortiz (eao7r)
-Lee Ann Johnson (lj6gd)
-JD Pinto (jp5ph)
+Uyen Nguyen (gmd8sq) \\
+Andy Ortiz (eao7r) \\
+Lee Ann Johnson (lj6gd) \\
+JD Pinto (jp5ph) \\
 
 ## Introduction 
 Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We propose to construct a logistic regression. Demographic data,  such as income, education, ethnicity, and geographic location, will be used to predict cancer survivorship outcomes, such as receiving a survivorship care plan.
