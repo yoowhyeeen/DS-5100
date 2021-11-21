@@ -1,5 +1,10 @@
 # DS-5100 Group Project
 
+Uyen Nguyen (gmd8sq)
+Andy Ortiz (eao7r)
+Lee Ann Johnson (lj6gd)
+JD Pinto (jp5ph)
+
 ## Introduction 
 Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We propose to construct a logistic regression. Demographic data,  such as income, education, ethnicity, and geographic location, will be used to predict cancer survivorship outcomes, such as receiving a survivorship care plan.
 
@@ -12,13 +17,13 @@ For this project, we propose to fit a MLRM onto the selected data set to predict
 - [x] Download the dataset LLCP2020.xpt from CDC
 - [x] Create a colab notebook 
 - [x] Import the necessary packages (google.colab, pandas, etc.)
-- [ ] Explore and clean the dataset
+- [x] Explore and clean the dataset
 - [ ] Visualize the data
 - [x] Develop a hypothesis
 - [ ] Outline our assumptions
 - [ ] Check our assumptions
-- [ ] Fit the regression model
-- [ ] Interpret the results 
+- [x] Fit the regression model
+- [x] Interpret the results 
 - [ ] Write code for user interaction with graphs and plots
 
 ## Project Management
