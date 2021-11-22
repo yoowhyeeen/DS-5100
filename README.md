@@ -25,7 +25,7 @@ We also wanted to visualize states that conducted topics on lung cancer so we pr
   <img src="Images/states.PNG">
 </p>
 
-This plot can be interacted via the lung cancer sandbox script in our Scripts folder. The plot displays the value and the abbreviation of the state when hovered on (available in the lung cancer sandbox ipynb) 
+This plot can be interacted via the lung cancer sandbox script in our [Scripts](https://github.com/yoowhyeeen/DS-5100/tree/master/Scripts) folder. The plot displays the value and the abbreviation of the state when hovered on (available in the lung cancer sandbox ipynb) 
 
 Furthermore, we came up with an initial logistic regression of the variable CSRVSUM with respect to sex, age groups, education levels, and marital status, which gave us:
 
