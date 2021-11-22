@@ -17,6 +17,12 @@ Since this is a rather big dataset, we decided to filter out survery data that o
   <img src="Images/hist.PNG">
 </p>
 
+Which confirmed our assumption of lung cancer being prevalent in the middle age to older adult population. The histogram showed a left skewed distribution, capturing the more older adults with lung cancer as opposed to younger adults being interviewed from the survey. 
+
+<p align="center">
+  <img src="Images/cm%20csrvsum%20wrt%20sex-age-edu-marital.PNG">
+</p>
+
 ## Experimental Design 
 For this project, we propose to fit a MLRM onto the selected data set to predict both cancer survivorship outcomes for 2020 and in subsequent years when the survivorship question module is administered. The following steps briefly outline the proposed project methodology:
 
@@ -35,9 +41,9 @@ For this project, we propose to fit a MLRM onto the selected data set to predict
 ## Project Management
 Roles: Uyen Nguyen (Programmer), Andy Ortiz (Programmer), JD Pinto (Project Manager), Lee Ann Johnson (Data interpretation/Writing/Editing)
 
-- [ ] Milestone 1 (Week 1-2): Choose predictor and response variables, develop hypotheses, outline assumptions, check assumptions (if assumptions fail, remedy the assumptions or find alternative approach to analysis).  
+- [x] Milestone 1 (Week 1-2): Choose predictor and response variables, develop hypotheses, outline assumptions, check assumptions (if assumptions fail, remedy the assumptions or find alternative approach to analysis).  
 
-- [ ] Milestone 2 (Week 3-4): Fit the model, extract insights from graphs, write unit tests, draw conclusions  
+- [x] Milestone 2 (Week 3-4): Fit the model, extract insights from graphs, write unit tests, draw conclusions  
 
 - [ ] Milestone 3 (Week 5-6): Debug and test code, organize visualizations
 
