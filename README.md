@@ -11,13 +11,29 @@ Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We prop
 ## The Data 
 “The Behavioral Risk Factor Surveillance System (BRFSS) is the nation’s premier system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.” - Source: [CDC BRFSS](https://www.cdc.gov/brfss/index.html)
 
-Since this is a rather big dataset, we decided to filter out survery data that only has lung cancer. We initially did this for 2020, but we went back and added several other years to yield a larger sample dataset in order to train our logistic regression. Our inital data exploratory from the dataset of 2020 only gave us:
+Since this is a rather big dataset, we decided to filter out survery data that only has lung cancer. We initially did this for 2020, but we went back and added several other years to yield a larger sample dataset in order to train our logistic regression. But inital data exploratory from the dataset of only 2020 painted the picture:
 
 <p align="center">
   <img src="Images/hist.PNG">
 </p>
 
 Which confirmed our assumption of lung cancer being prevalent in the middle age to older adult population. The histogram showed a left skewed distribution, capturing the more older adults with lung cancer as opposed to younger adults being interviewed from the survey. 
+
+We also wanted to visualize states that conducted topics on lung cancer so we produced the plot:
+
+<p align="center">
+  <img src="Images/states.PNG">
+</p>
+
+This plot can be interacted via the lung cancer sandbox script in our Scripts folder. The plot displays the value and the abbreviation of the state when hovered on (available in the lung cancer sandbox ipynb) 
+
+Furthermore, we came up with an initial logistic regression of the variable CSRVSUM with respect to sex, age groups, education levels, and marital status, which gave us:
+
+<p align="center">
+  <img src="Images/csrvsum wrt sex-age-edu-marital.PNG">
+</p>
+
+As well as a confusion matrix and score:
 
 <p align="center">
   <img src="Images/cm%20csrvsum%20wrt%20sex-age-edu-marital.PNG">
