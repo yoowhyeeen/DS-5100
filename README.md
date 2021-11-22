@@ -13,7 +13,7 @@ Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We prop
 
 Since this is a rather big dataset, we decided to filter out survery data that only has lung cancer. We initially did this for 2020, but we went back and added several other years to yield a larger sample dataset in order to train our logistic regression. Our inital data exploratory gave us:
 
-![](Images/hist.PNG)
+<img align="center" width="100" src="Images/hist.PNG">
 
 ## Experimental Design 
 For this project, we propose to fit a MLRM onto the selected data set to predict both cancer survivorship outcomes for 2020 and in subsequent years when the survivorship question module is administered. The following steps briefly outline the proposed project methodology:
