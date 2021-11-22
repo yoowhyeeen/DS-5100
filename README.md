@@ -11,6 +11,10 @@ Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We prop
 ## The Data 
 “The Behavioral Risk Factor Surveillance System (BRFSS) is the nation’s premier system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.” - Source: [CDC BRFSS](https://www.cdc.gov/brfss/index.html)
 
+Since this is a rather big dataset, we decided to filter out survery data that only has lung cancer. We initially did this for 2020, but we went back and added several other years to yield a larger sample dataset in order to train our logistic regression. Our inital data exploratory gave us:
+
+![](Images/hist.PNG)
+
 ## Experimental Design 
 For this project, we propose to fit a MLRM onto the selected data set to predict both cancer survivorship outcomes for 2020 and in subsequent years when the survivorship question module is administered. The following steps briefly outline the proposed project methodology:
 
@@ -18,9 +22,9 @@ For this project, we propose to fit a MLRM onto the selected data set to predict
 - [x] Create a colab notebook 
 - [x] Import the necessary packages (google.colab, pandas, etc.)
 - [x] Explore and clean the dataset
-- [ ] Visualize the data
+- [x] Visualize the data
 - [x] Develop a hypothesis
-- [ ] Outline our assumptions
+- [x] Outline our assumptions
 - [ ] Check our assumptions
 - [x] Fit the regression model
 - [x] Interpret the results 
