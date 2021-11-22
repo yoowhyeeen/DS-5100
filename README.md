@@ -39,6 +39,8 @@ As well as a confusion matrix and score:
   <img src="Images/cm%20csrvsum%20wrt%20sex-age-edu-marital.PNG">
 </p>
 
+We have more visuals and results on the way as our group wraps up on final details and interpretation. We are excited to share our findings with all of you soon!
+
 ## Experimental Design 
 For this project, we propose to fit a MLRM onto the selected data set to predict both cancer survivorship outcomes for 2020 and in subsequent years when the survivorship question module is administered. The following steps briefly outline the proposed project methodology:
 
