@@ -6,10 +6,19 @@ Lee Ann Johnson (lj6gd) \
 JD Pinto (jp5ph)
 
 ## Introduction 
-Our group plans to utilize data from the 2020 BRFSS Annual Survey Data.  We propose to construct a logistic regression. Demographic data,  such as income, education, ethnicity, and geographic location, will be used to predict cancer survivorship outcomes, such as receiving a survivorship care plan.
+  After breast cancer and prostate cancer, lung cancer is the second most diagnosed cancer in the United States (U.S.) for both men and women. In 2021, approximately 235,760 new cases will be diagnosed (SEIGEL, 2021). Unfortunately, lung cancer remains the leading cause of cancer-related deaths with approximately 131,880 new deaths estimated for 2021 (SEIGEL, 2021). Regardless of survival, a significant number of individuals with lung cancer receive cancer care each year.
+  Although lung cancer claims the lives of more Americans than any other type of cancer, relatively little is understood about lung cancer survivors when compared to other types of cancer where individuals live longer after diagnosis. Relatively short survival times after a diagnosis have limited studies in this area. Individuals are typically considered by be survivors of cancer beginning at the time of a cancer diagnosis. Due to the high number of new lung cancer cases, and thus high number of new lung cancer survivors each year, it is vital to understand lung cancer survivorship outcomes. 
+  The overall purpose of this project was to examine, among individuals with lung cancer, potential disparities in survivorship care. More specifically, in a nationally representative sample of individuals with lung cancer, we will 1) describe the demographics, physical, and mental health characteristics, 2) examine associations between demographics, physical, and mental health characteristics and the survivorship outcomes (cancer care summaries, written cancer care summaries, and health insurance coverage), 3) model which demographic physical, and mental health characteristics predict survivorship outcomes. 
 
-## The Data 
-“The Behavioral Risk Factor Surveillance System (BRFSS) is the nation’s premier system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.” - Source: [CDC BRFSS](https://www.cdc.gov/brfss/index.html)
+
+## Data Set
+  To explore cancer survivorship outcomes in a nationally represented sample of individuals with lung cancer, the Behavioral Risk Factor Surveillance System (BRFSS) data set was selected. This dataset is created through an annual telephone-based survey collected in each U.S. state and territory. The primary questions are standardized between states, and included information pertaining to use of preventative services, health-related risk behaviors, and chronic health conditions. In addition to the standard questions, states can opt to administer other approved and standardized health-related modules. 
+	BRFSS data is published annually on the Centers for Disease Control website (https://www.cdc.gov/brfss/index.html). Published materials for each year include the questionnaires, a data dictionary that identifies questions and answer codes, and the data. All data are deidentified and freely available for download. Each year of data is available as a separate file. For this project, to ensure an adequate sample size of individuals diagnosed with lung cancer, data from the following years were selected: XXXXXXXXXXX. 
+
+## Data Structure
+The data structure used for this project is a ??? 2-D array????
+
+## Data Pre-processing
 
 Since this is a rather big dataset, we decided to filter out survery data that only has lung cancer. We initially did this for 2020, but we went back and added several other years to yield a larger sample dataset in order to train our logistic regression. But inital data exploratory from the dataset of only 2020 painted the picture:
 
