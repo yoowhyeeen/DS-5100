@@ -13,6 +13,7 @@ JD Pinto (jp5ph)
 
 ## Data Set
   To explore cancer survivorship outcomes in a nationally represented sample of individuals with lung cancer, the Behavioral Risk Factor Surveillance System (BRFSS) data set was selected. This dataset is created through an annual telephone-based survey collected in each U.S. state and territory. The primary questions are standardized between states, and included information pertaining to use of preventative services, health-related risk behaviors, and chronic health conditions. In addition to the standard questions, states can opt to administer other approved and standardized health-related modules. 
+  
 	BRFSS data is published annually on the Centers for Disease Control website (https://www.cdc.gov/brfss/index.html). Published materials for each year include the questionnaires, a data dictionary that identifies questions and answer codes, and the data. All data are deidentified and freely available for download. Each year of data is available as a separate file. For this project, to ensure an adequate sample size of individuals diagnosed with lung cancer, data from the following years were selected: XXXXXXXXXXX. 
 
 ## Data Structure
